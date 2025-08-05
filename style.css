@@ -1,0 +1,65 @@
+.main
+    {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      border: 1px solid black;
+    }
+    .box
+    {
+      margin: 15px;
+      width: 22%;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      flex-direction: column;
+      border: 1px solid black;
+    } 
+    .img
+    {
+      
+      width: 100%;
+      height: 200px;
+       
+    }
+    .information
+    {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    #banner
+    {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(213, 206, 206);
+      top: 0;
+    }
+    .ban
+    {
+      width: 100%;
+      height: 80px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+    #inforcon{
+      width: 100%;
+      height: auto;
+      border: 3px solid black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 30px;
+    }
